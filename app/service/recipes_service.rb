@@ -10,6 +10,8 @@ class RecipesService
 
   def self.find_recipes(country)
     response = conn.get("/api/recipes/v2?type=public&q=#{country}")
+    # require 'pry'; binding.pry
     data = JSON.parse(response.body, symbolize_names: true)
+    # require 'pry'; binding.pry
   end
 end
