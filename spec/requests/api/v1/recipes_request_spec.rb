@@ -1,16 +1,27 @@
 require 'rails_helper'
 
 RSpec.describe "Recipe API" do
-  it "sends a list of recipes based on country" do
-    country = "Ireland"
+   before(:each) do
+    json_response = File.read('spec/fixtures/recipes_results.json')
 
-    get "/api/v1/recipes?q=#{country}"
+    query = "Ireland"
+
+    api_key = ENV['recipe_api_key']
+    api_id = ENV['recipe_api_id']
+
+    stub_request(:get, "https://api.edamam.com/api/recipes/v2?app_id=#{api_id}&app_key=#{api_key}&q=#{query}&type=public")
+         .to_return(status: 200, body: json_response, headers: {})
+
+   end
+
+  it "sends a list of recipes based on country" do
+    get "/api/v1/recipes?q=Ireland"
 
     expect(response).to be_successful
     json_result = JSON.parse(response.body, symbolize_names: true)
 
     recipes = json_result[:data]
-    
+   
     expect(recipes.first).to have_key(:id)
     expect(recipes.first[:id]).to eq(nil)
 

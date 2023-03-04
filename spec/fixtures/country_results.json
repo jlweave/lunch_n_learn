@@ -1,0 +1,194 @@
+[
+  {
+    "name": {
+      "common": "Gambia",
+      "official": "Republic of the Gambia",
+      "nativeName": {
+        "eng": {
+          "official": "Republic of the Gambia",
+          "common": "Gambia"
+        }
+      }
+    },
+    "tld": [
+      ".gm"
+    ],
+    "cca2": "GM",
+    "ccn3": "270",
+    "cca3": "GMB",
+    "cioc": "GAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "GMD": {
+        "name": "dalasi",
+        "symbol": "D"
+      }
+    },
+    "idd": {
+      "root": "+2",
+      "suffixes": [
+        "20"
+      ]
+    },
+    "capital": [
+      "Banjul"
+    ],
+    "altSpellings": [
+      "GM",
+      "Republic of the Gambia"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [
+      13.46666666,
+      -16.56666666
+    ],
+    "landlocked": false,
+    "borders": [
+      "SEN"
+    ],
+    "area": 10689.0,
+    "demonyms": {
+      "eng": {
+        "f": "Gambian",
+        "m": "Gambian"
+      },
+      "fra": {
+        "f": "Gambienne",
+        "m": "Gambien"
+      }
+    },
+    "flag": "🇬🇲",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/192774"
+    },
+    "population": 2416664,
+    "gini": {
+      "2015": 35.9
+    },
+    "fifa": "GAM",
+    "car": {
+      "signs": [
+        "WAG"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC+00:00"
+    ],
+    "continents": [
+      "Africa"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/gm.png",
+      "svg": "https://flagcdn.com/gm.svg",
+      "alt": "The flag of Gambia is composed of three equal horizontal bands of red, blue with white top and bottom edges, and green."
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/gm.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/gm.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        13.45,
+        -16.57
+      ]
+    }
+  },
+  {
+    "name": {
+      "common": "Cape Verde",
+      "official": "Republic of Cabo Verde",
+      "nativeName": {
+        "por": {
+          "official": "República de Cabo Verde",
+          "common": "Cabo Verde"
+        }
+      }
+    },
+    "tld": [
+      ".cv"
+    ],
+    "cca2": "CV",
+    "ccn3": "132",
+    "cca3": "CPV",
+    "cioc": "CPV",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": {
+      "CVE": {
+        "name": "Cape Verdean escudo",
+        "symbol": "Esc"
+      }
+    },
+    "idd": {
+      "root": "+2",
+      "suffixes": [
+        "38"
+      ]
+    },
+    "capital": [
+      "Praia"
+    ],
+    "altSpellings": [
+      "CV",
+      "Republic of Cabo Verde",
+      "República de Cabo Verde"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "flag": "🇨🇻",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/535774"
+    },
+    "population": 555988,
+    "gini": {
+      "2015": 42.4
+    },
+    "fifa": "CPV",
+    "car": {
+      "signs": [
+        "CV"
+      ],
+      "side": "right"
+    },
+    "timezones": [
+      "UTC-01:00"
+    ],
+    "continents": [
+      "Africa"
+    ],
+    "flags": {
+      "png": "https://flagcdn.com/w320/cv.png",
+      "svg": "https://flagcdn.com/cv.svg",
+      "alt": "The flag of Cape Verde is composed of five horizontal bands of blue, white, red, white and blue in the ratio of 6:1:1:1:3. A ring of ten five-pointed yellow stars is centered at three-eighth of the height from the bottom edge and three-eighth of the width from the hoist end of the field."
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/cv.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/cv.svg"
+    },
+    "startOfWeek": "monday",
+    "capitalInfo": {
+      "latlng": [
+        14.92,
+        -23.52
+      ]
+    },
+    "postalCode": {
+      "format": "####",
+      "regex": "^(\\d{4})$"
+    }
+  }
+]
