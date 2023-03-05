@@ -10,36 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_03_04_220100) do
+ActiveRecord::Schema.define(version: 2023_03_04_220021) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "favorites", force: :cascade do |t|
+    t.bigint "user_id"
+    t.string "user_api_key"
     t.string "country"
     t.string "recipe_link"
     t.string "recipe_title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_favorites_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
-    t.string "api_key"
+    t.string "user_api_key"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "users_favorites", force: :cascade do |t|
-    t.bigint "users_id"
-    t.bigint "favorites_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["favorites_id"], name: "index_users_favorites_on_favorites_id"
-    t.index ["users_id"], name: "index_users_favorites_on_users_id"
-  end
-
-  add_foreign_key "users_favorites", "favorites", column: "favorites_id"
-  add_foreign_key "users_favorites", "users", column: "users_id"
+  add_foreign_key "favorites", "users"
 end
