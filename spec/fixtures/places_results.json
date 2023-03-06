@@ -1,0 +1,423 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arch 22",
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Independence Drive",
+        "lon": -16.582490108028786,
+        "lat": 13.46033075,
+        "formatted": "Arch 22, Independence Drive, Banjul City Council, The Gambia",
+        "address_line1": "Arch 22",
+        "address_line2": "Independence Drive, Banjul City Council, The Gambia",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.public_and_civil",
+          "building.tourism",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.monument"
+        ],
+        "details": [
+          "details.building",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Arch 22",
+            "image": "https://photos.app.goo.gl/gvE89k1yjZPprCvFA",
+            "layer": 1,
+            "height": 35,
+            "osm_id": 255658526,
+            "tourism": "attraction",
+            "building": "public",
+            "historic": "monument",
+            "osm_type": "w",
+            "wikidata": "Q632012",
+            "architect": "Pierre Goudiaby",
+            "wikipedia": "en:Arch 22",
+            "start_date": 1996
+          }
+        },
+        "place_id": "51f95a2a0e1e9530c059fb6cca91b0eb2a40f00102f9011e0a3d0f0000000092030741726368203232"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.582489857998528,
+          13.4603314933397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fort Bullen",
+        "country": "The Gambia",
+        "country_code": "gm",
+        "state": "North Bank Division",
+        "state_district": "Kerewan",
+        "county": "Lower Niumi",
+        "city": "Barra",
+        "street": "TAH 7",
+        "lon": -16.548664505003522,
+        "lat": 13.487497,
+        "formatted": "Fort Bullen, TAH 7, Barra, The Gambia",
+        "address_line1": "Fort Bullen",
+        "address_line2": "TAH 7, Barra, The Gambia",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "heritage",
+          "heritage.unesco",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.fort"
+        ],
+        "details": [
+          "details.building",
+          "details.heritage",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Fort Bullen",
+            "ruins": "yes",
+            "osm_id": 263258266,
+            "ref:whc": "761-003",
+            "tourism": "attraction",
+            "building": "yes",
+            "heritage": 1,
+            "historic": "fort",
+            "osm_type": "w",
+            "wikidata": "Q1438468",
+            "wikipedia": "de:Fort Bullen",
+            "start_date": 1826,
+            "whc:criteria": "(iii),(vi)",
+            "heritage:website": "http://whc.unesco.org/en/list/761",
+            "heritage:operator": "whc",
+            "whc:inscription_date": 2003
+          }
+        },
+        "place_id": "511b2d528f758c30c0599c51e43d98f92a40f00102f9019a00b10f0000000092030b466f72742042756c6c656e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.54866882091765,
+          13.48748963749022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Six-Gun Battery",
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Marina Parade",
+        "lon": -16.573730180328475,
+        "lat": 13.45589895,
+        "formatted": "Six-Gun Battery, Marina Parade, Banjul City Council, The Gambia",
+        "address_line1": "Six-Gun Battery",
+        "address_line2": "Marina Parade, Banjul City Council, The Gambia",
+        "categories": [
+          "heritage",
+          "heritage.unesco",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.fort"
+        ],
+        "details": [
+          "details.heritage",
+          "details.historic",
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Six-Gun Battery",
+            "osm_id": 398269833,
+            "ref:whc": "761-002",
+            "heritage": 1,
+            "historic": "fort",
+            "osm_type": "w",
+            "wikidata": "Q65894506",
+            "start_date": 1821,
+            "whc:criteria": "(iii),(vi)",
+            "heritage:website": "http://whc.unesco.org/en/list/761/",
+            "heritage:operator": "whc",
+            "whc:inscription_date": 2003
+          }
+        },
+        "place_id": "5115c5d1d3de9230c059ec3f6c4569e92a40f00102f901891dbd170000000092030f5369782d47756e2042617474657279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.573712576592772,
+          13.455881280387949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wesley Methodist Church",
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Dobson Street",
+        "lon": -16.575852322445513,
+        "lat": 13.451798149999998,
+        "formatted": "Wesley Methodist Church, Dobson Street, Banjul City Council, The Gambia",
+        "address_line1": "Wesley Methodist Church",
+        "address_line2": "Dobson Street, Banjul City Council, The Gambia",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.place_of_worship",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.place_of_worship"
+        ],
+        "details": [
+          "details.building",
+          "details.historic",
+          "details.place_of_worship"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Wesley Methodist Church",
+            "osm_id": 255664714,
+            "amenity": "place_of_worship",
+            "building": "yes",
+            "historic": "yes",
+            "osm_type": "w",
+            "religion": "christian",
+            "start_date": "1834-12-03",
+            "addr:street": "Dobson Street",
+            "denomination": "methodist"
+          }
+        },
+        "place_id": "5184d6606c6b9330c0592590301c54e72a40f00102f9014a223d0f000000009203175765736c6579204d6574686f6469737420436875726368"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.575857900278166,
+          13.451813584259137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sankandi Monument",
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Alpha Tapsiru Salam",
+        "lon": -16.5751426,
+        "lat": 13.4547885,
+        "formatted": "Sankandi Monument, Alpha Tapsiru Salam, Banjul City Council, The Gambia",
+        "address_line1": "Sankandi Monument",
+        "address_line2": "Alpha Tapsiru Salam, Banjul City Council, The Gambia",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Sankandi Monument",
+            "osm_id": 2613364455,
+            "historic": "memorial",
+            "osm_type": "n"
+          }
+        },
+        "place_id": "515289a18b3c9330c05994dcc909dae82a40f00103f901e7c6c49b0000000092031153616e6b616e6469204d6f6e756d656e74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5751426,
+          13.454788499728501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Statue of the Unknown Soldier",
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Independence Drive",
+        "lon": -16.5828051,
+        "lat": 13.4605046,
+        "formatted": "Statue of the Unknown Soldier, Independence Drive, Banjul City Council, The Gambia",
+        "address_line1": "Statue of the Unknown Soldier",
+        "address_line2": "Independence Drive, Banjul City Council, The Gambia",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "name": "Statue of the Unknown Soldier",
+            "osm_id": 9993791016,
+            "historic": "memorial",
+            "osm_type": "n"
+          }
+        },
+        "place_id": "5127710cb7329530c05905fd4642c7eb2a40f00103f9012826ad530200000092031d537461747565206f662074686520556e6b6e6f776e20536f6c64696572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.582805099999998,
+          13.460504599729129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Independence Drive",
+        "lon": -16.58280997805237,
+        "lat": 13.4605099,
+        "formatted": "Independence Drive, Banjul City Council, The Gambia",
+        "address_line1": "Independence Drive",
+        "address_line2": "Banjul City Council, The Gambia",
+        "categories": [
+          "natural",
+          "natural.water",
+          "tourism",
+          "tourism.attraction.fountain",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "details": [
+          "details.wiki_and_media"
+        ],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "image": "https://photos.app.goo.gl/S68QQEMxSUXPbpdk8",
+            "osm_id": 1091115731,
+            "amenity": "fountain",
+            "natural": "water",
+            "historic": "memorial",
+            "osm_type": "w"
+          }
+        },
+        "place_id": "51928f2909339530c0590425be54c8eb2a40f00102f901d31a094100000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.582809994360623,
+          13.460512779437074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "country": "The Gambia",
+        "country_code": "gm",
+        "county": "Kombo North/Saint Mary",
+        "city": "Banjul City Council",
+        "district": "Banjul",
+        "street": "Daniel Goddard Street",
+        "lon": -16.5745516,
+        "lat": 13.4529277,
+        "formatted": "Daniel Goddard Street, Banjul City Council, The Gambia",
+        "address_line1": "Daniel Goddard Street",
+        "address_line2": "Banjul City Council, The Gambia",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "details": [],
+        "datasource": {
+          "sourcename": "openstreetmap",
+          "attribution": "© OpenStreetMap contributors",
+          "license": "Open Database Licence",
+          "url": "https://www.openstreetmap.org/copyright",
+          "raw": {
+            "osm_id": 2613211222,
+            "historic": "memorial",
+            "osm_type": "n"
+          }
+        },
+        "place_id": "514edd4bd0159330c0592e92b323e6e72a40f00103f9015670c29b00000000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5745516,
+          13.452927699728289
+        ]
+      }
+    }
+  ]
+}

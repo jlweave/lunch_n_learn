@@ -309,6 +309,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -379,7 +380,7 @@
           null,
           1,
           1,
-          4,
+          3,
           null,
           null
         ]
@@ -489,6 +490,39 @@
           null
         ]
       },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/spec/requests/api/v1/tourist_sights_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/janiceweaver/3Mod/projects/lunch_n_learn/spec/requests/api/v1/users_request_spec.rb": {
         "lines": [
           1,
@@ -497,29 +531,28 @@
           1,
           1,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          0,
           null,
-          1,
-          null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null,
           null
@@ -717,7 +750,82 @@
           null
         ]
       },
-      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/controllers/api/v1/users_controller.rb": {
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/controllers/api/v1/tourist_sights_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/facade/tourist_sights_facade.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/facade/country_facade.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/service/country_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/poros/country.rb": {
         "lines": [
           1,
           1,
@@ -725,8 +833,18 @@
           1,
           1,
           null,
-          0,
+          1,
+          1,
           null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/service/tourist_sights_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
           null,
           null,
           null,
@@ -737,15 +855,29 @@
           null
         ]
       },
-      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/serializer/user_serializer.rb": {
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/poros/tourist_sight.rb": {
         "lines": [
           1,
           1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/serializer/tourist_sights_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          2,
           1,
           null
         ]
       }
     },
-    "timestamp": 1678057917
+    "timestamp": 1678125658
   }
 }
