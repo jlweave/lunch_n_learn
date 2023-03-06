@@ -21,9 +21,19 @@ RSpec.describe "Tourist Sight Info" do
     get "/api/v1/tourist_sights?country=#{country}"
 
     sights = JSON.parse(response.body, symbolize_names: true)
-require 'pry'; binding.pry
-    # expect(response).to be_successfull
+# require 'pry'; binding.pry
     expect(response.status).to eq(200)
   
+    expect(sights[:data].count).to eq(3)
+    expect(sights).to be_a(Hash)
+    sights.each do |sight|
+# require 'pry'; binding.pry
+    
+      expect(sight[1][:id]).to eq(nil)
+      expect(sight[1][:type]).to eq("tourist_sights")
+      expect(sight[1][:attributes][:name]).to eq("Arch 22")
+      expect(sight[1][:attributes][:address]).to eq("Arch 22, Independence Drive, Banjul City Council, The Gambia")
+      expect(sight[1][:attributes][:place_id]).to eq("51f95a2a0e1e9530c059fb6cca91b0eb2a40f00102f9011e0a3d0f0000000092030741726368203232")
+    end
   end
 end
