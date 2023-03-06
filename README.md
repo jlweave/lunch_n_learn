@@ -1,7 +1,8 @@
 </h1>
 
 <p align="center">
-  <img width="600" src="">
+
+  <img width="600" src="https://user-images.githubusercontent.com/108754743/222994555-63d40f38-8f96-432f-bab4-f855a9bea2c3.JPG">
 </p>
 
 <h3 align="center">This repo handles only the Back End project responsibilities. 
