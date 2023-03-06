@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-03-06T11:53:59-07:00">2023-03-06T11:53:59-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-03-06T11:56:02-07:00">2023-03-06T11:56:02-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -3175,7 +3175,7 @@
 
             
 
-            <code class="ruby">  attr_reader :name, :address, :place_id</code>
+            <code class="ruby">  attr_reader :name, :formatted_address, :place_id</code>
           </li>
         </div>
       
@@ -3230,7 +3230,7 @@
 
             
 
-            <code class="ruby">    @address = attr[:features].first[:properties][:formatted]</code>
+            <code class="ruby">    @formatted_address = attr[:features].first[:properties][:formatted]</code>
           </li>
         </div>
       
@@ -3510,7 +3510,7 @@
 
             
 
-            <code class="ruby">  attributes :name, :address, :place_id</code>
+            <code class="ruby">  attributes :name, :formatted_address, :place_id</code>
           </li>
         </div>
       
@@ -7483,7 +7483,7 @@
 
             
 
-            <code class="ruby">    expect(sight.address).to eq(&quot; Whoknows Rd Whoville, Co, 12345678&quot;)</code>
+            <code class="ruby">    expect(sight.formatted_address).to eq(&quot; Whoknows Rd Whoville, Co, 12345678&quot;)</code>
           </li>
         </div>
       
@@ -9884,7 +9884,7 @@
 
             
 
-            <code class="ruby">      expect(sight[1][:attributes]).to have_key(:address)</code>
+            <code class="ruby">      expect(sight[1][:attributes]).to have_key(:formatted_address)</code>
           </li>
         </div>
       
@@ -9917,7 +9917,7 @@
 
             
 
-            <code class="ruby">      expect(sight[1][:attributes][:address]).to eq(&quot;Arch 22, Independence Drive, Banjul City Council, The Gambia&quot;)</code>
+            <code class="ruby">      expect(sight[1][:attributes][:formatted_address]).to eq(&quot;Arch 22, Independence Drive, Banjul City Council, The Gambia&quot;)</code>
           </li>
         </div>
       

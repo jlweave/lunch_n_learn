@@ -14,7 +14,7 @@ RSpec.describe "Tourist Sight Poros" do
 # require 'pry'; binding.pry
     expect(sight).to be_an_instance_of(TouristSight)
     expect(sight.name).to eq("Chipmunk Beaut Pageant")
-    expect(sight.address).to eq(" Whoknows Rd Whoville, Co, 12345678")
+    expect(sight.formatted_address).to eq(" Whoknows Rd Whoville, Co, 12345678")
     expect(sight.place_id).to eq("1234567890")
   end
 end

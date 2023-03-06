@@ -32,10 +32,10 @@ RSpec.describe "Tourist Sight Info" do
       expect(sight[1][:id]).to eq(nil)
       expect(sight[1][:type]).to eq("tourist_sights")
       expect(sight[1][:attributes]).to have_key(:name)
-      expect(sight[1][:attributes]).to have_key(:address)
+      expect(sight[1][:attributes]).to have_key(:formatted_address)
       expect(sight[1][:attributes]).to have_key(:place_id)
       expect(sight[1][:attributes][:name]).to eq("Arch 22")
-      expect(sight[1][:attributes][:address]).to eq("Arch 22, Independence Drive, Banjul City Council, The Gambia")
+      expect(sight[1][:attributes][:formatted_address]).to eq("Arch 22, Independence Drive, Banjul City Council, The Gambia")
       expect(sight[1][:attributes][:place_id]).to eq("51f95a2a0e1e9530c059fb6cca91b0eb2a40f00102f9011e0a3d0f0000000092030741726368203232")
     end
   end
