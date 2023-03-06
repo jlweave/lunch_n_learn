@@ -27,9 +27,11 @@ WIP
 WIP
 
 ## API Endpoints
+
 Here is a list of all mapped client requests with their respective json responses below them:
 
 WIP
+
 
 ## Tech Stack
 
