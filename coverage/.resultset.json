@@ -385,6 +385,26 @@
           null
         ]
       },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/spec/poros/tourist_sight_poros_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
       "/Users/janiceweaver/3Mod/projects/lunch_n_learn/spec/requests/api/v1/learning_resources_request_spec.rb": {
         "lines": [
           1,
@@ -601,6 +621,9 @@
           1,
           1,
           1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -615,6 +638,19 @@
           1,
           1,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/poros/tourist_sight.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          1,
+          1,
           null,
           null
         ]
@@ -900,19 +936,6 @@
           null
         ]
       },
-      "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/poros/tourist_sight.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/janiceweaver/3Mod/projects/lunch_n_learn/app/serializer/tourist_sights_serializer.rb": {
         "lines": [
           1,
@@ -951,6 +974,6 @@
         ]
       }
     },
-    "timestamp": 1678127258
+    "timestamp": 1678128370
   }
 }

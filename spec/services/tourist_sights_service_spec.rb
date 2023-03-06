@@ -23,8 +23,11 @@ RSpec.describe TouristSightsFacade do
     expect(sights[:features].first[:properties]).to have_key(:name)
     expect(sights[:features].first[:properties]).to have_key(:formatted)
     expect(sights[:features].first[:properties]).to have_key(:place_id)
+    expect(sights[:features].first[:properties][:name]).to be_a(String)
     expect(sights[:features].first[:properties][:name]).to eq( "Arch 22")
+    expect(sights[:features].first[:properties][:formatted]).to be_a(String)
     expect(sights[:features].first[:properties][:formatted]).to eq("Arch 22, Independence Drive, Banjul City Council, The Gambia")
+    expect(sights[:features].first[:properties][:place_id]).to be_a(String)
     expect(sights[:features].first[:properties][:place_id]).to eq("51f95a2a0e1e9530c059fb6cca91b0eb2a40f00102f9011e0a3d0f0000000092030741726368203232")
   end
 end
