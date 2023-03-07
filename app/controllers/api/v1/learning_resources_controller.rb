@@ -1,8 +1,6 @@
 class Api::V1::LearningResourcesController < ApplicationController
   def index
-    # require 'pry'; binding.pry
     results = LearningResourcesFacade.country_resources(params[:q])
-    # require 'pry'; binding.pry
     render json: LearningResourcesSerializer.new(results)
   end
 end
