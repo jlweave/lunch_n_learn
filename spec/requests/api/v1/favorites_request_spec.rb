@@ -14,4 +14,31 @@ RSpec.describe 'Favorites API' do
       expect(parsed_response).to have_key(:success)
       expect(parsed_response[:success]).to eq("Favorite was added to user")
   end
+
+  it "will return 400 error if user is not found" do
+    body = {"api_key": "124345678", "country": "Ireland", "recipe_link": "http://www.edamam.com/recipe/east-of-ireland-recipe-6d13b3f170ff1927fae509941714f13a/ireland", "recipe_title": "East of Ireland Recipe"}
+    headers = { "CONTENT_TYPE" => "application/json" }
+    post '/api/v1/favorites', headers: headers, params: JSON.generate(favorite: body)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to eq("{\"errors\":\"User could not be found, favorite not added. Try again!\"}")
+  end
+
+  it "will return an error if param is missing" do
+    body = {"api_key": "", "country": "Ireland", "recipe_link": "http://www.edamam.com/recipe/east-of-ireland-recipe-6d13b3f170ff1927fae509941714f13a/ireland", "recipe_title": "East of Ireland Recipe"}
+    headers = { "CONTENT_TYPE" => "application/json" }
+    post '/api/v1/favorites', headers: headers, params: JSON.generate(favorite: body)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to eq("{\"errors\":\"User could not be found, favorite not added. Try again!\"}")
+  end
+
+  it "will return an error if param is missing" do
+    body = {"api_key": "12345678", "country": "", "recipe_link": "http://www.edamam.com/recipe/east-of-ireland-recipe-6d13b3f170ff1927fae509941714f13a/ireland", "recipe_title": "East of Ireland Recipe"}
+    headers = { "CONTENT_TYPE" => "application/json" }
+    post '/api/v1/favorites', headers: headers, params: JSON.generate(favorite: body)
+
+    expect(response).to have_http_status(400)
+    expect(response.body).to eq("{\"errors\":\"User could not be found, favorite not added. Try again!\"}")
+  end
 end
