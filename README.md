@@ -16,7 +16,7 @@
 - [Setup and Installation](#setup-and-installation)
 - [Learning Goals](#learning-goals)
 - [API Information](#api-information)
-- [Responsible Parties](#responsible-parties)
+- [Repository Owner](#repository-owner)
 
 ## Project Overview
 
