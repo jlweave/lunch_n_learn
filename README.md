@@ -20,7 +20,7 @@
 
 ## Project Overview
 
-WIP
+This is the backend service for an application called Lunch n Learn. Lunch and Learn allows users to find recipes around the world and learn about different countries. When a user creates an account, they are able to save recipes to their favorites for later enjoyment. This project was completed as part of the backend curriculum at Turing School of Software and Design. At this time there is no frontend built.
 
 ## Schema
 
