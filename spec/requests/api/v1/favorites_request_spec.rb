@@ -41,4 +41,17 @@ RSpec.describe 'Favorites API' do
     expect(response).to have_http_status(400)
     expect(response.body).to eq("{\"errors\":\"User could not be found, favorite not added. Try again!\"}")
   end
+
+  it "returns a 400 error if an invalid user passed" do
+        get "/api/v1/favorites?user_api_key=abc123"
+
+        expect(response).to_not be_successful
+        expect(response.status).to eq(400)
+
+        parsed_response = JSON.parse(response.body, symbolize_names: true)
+
+        expect(parsed_response).to be_a(Hash)
+        expect(parsed_response).to have_key(:errors)
+        expect(parsed_response[:errors]).to eq("User could not be found, try again.")
+    end 
 end
