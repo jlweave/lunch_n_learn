@@ -20,6 +20,7 @@
 
 ## Project Overview
 
+
 This is the backend service for an application called Lunch n Learn. Lunch and Learn allows users to find recipes around the world and learn about different countries. When a user creates an account, they are able to save recipes to their favorites for later enjoyment. This project was completed as part of the backend curriculum at Turing School of Software and Design. At this time there is no frontend built.
 
 ## Schema
@@ -38,6 +39,19 @@ Here is a list of all mapped client requests with their respective json response
 ![5](https://user-images.githubusercontent.com/108754743/223305650-6c3f09e1-c4d1-448c-82a5-fd0a5f1e94e6.png)
 ![6](https://user-images.githubusercontent.com/108754743/223305665-0dd3b638-9eb4-4ffb-bf6b-4db35006d85e.png)
 ![7](https://user-images.githubusercontent.com/108754743/223305672-8c94377d-aad6-4455-958d-c19915ac4ed0.png)
+
+
+WIP
+
+## Schema
+
+WIP
+
+## API Endpoints
+
+Here is a list of all mapped client requests with their respective json responses below them:
+
+WIP
 
 
 
