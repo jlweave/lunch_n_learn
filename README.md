@@ -41,19 +41,6 @@ Here is a list of all mapped client requests with their respective json response
 ![7](https://user-images.githubusercontent.com/108754743/223305672-8c94377d-aad6-4455-958d-c19915ac4ed0.png)
 
 
-WIP
-
-## Schema
-
-WIP
-
-## API Endpoints
-
-Here is a list of all mapped client requests with their respective json responses below them:
-
-WIP
-
-
 
 ## Tech Stack
 
