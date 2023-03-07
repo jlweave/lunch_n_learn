@@ -30,21 +30,55 @@ This is the backend service for an application called Lunch n Learn. Lunch and L
 
 ## API Endpoints
 Here is a list of all mapped client requests with their respective json responses below them:
+<details>
+<summary> 'edamam.com/api/v1/recipes?country=Ireland' </summary>
+<br>
+  
+  ![first](https://user-images.githubusercontent.com/108754743/223305573-5abd6ae4-572e-4cd6-b5da-52a8c9d7c9a9.png)
+  
+  ![2](https://user-images.githubusercontent.com/108754743/223305582-71baca4a-827b-4802-837b-7e528738292e.png)
+  
+ </details>
+ 
+<details>
+<summary> 'restcountries.com/v3.1/all' </summary>
+<br>
 
-![first](https://user-images.githubusercontent.com/108754743/223305573-5abd6ae4-572e-4cd6-b5da-52a8c9d7c9a9.png)
-![2](https://user-images.githubusercontent.com/108754743/223305582-71baca4a-827b-4802-837b-7e528738292e.png)
-![3](https://user-images.githubusercontent.com/108754743/223305591-cbba9edc-6a64-46cf-aefd-9a4a8ba6c282.png)
-![4](https://user-images.githubusercontent.com/108754743/223305603-90bfe29a-9998-491f-b819-22ad6fbe1716.png)
-![4 5](https://user-images.githubusercontent.com/108754743/223305638-c590a80c-8482-43d5-9513-5c4421a53d8e.png)
-![5](https://user-images.githubusercontent.com/108754743/223305650-6c3f09e1-c4d1-448c-82a5-fd0a5f1e94e6.png)
-![6](https://user-images.githubusercontent.com/108754743/223305665-0dd3b638-9eb4-4ffb-bf6b-4db35006d85e.png)
-![7](https://user-images.githubusercontent.com/108754743/223305672-8c94377d-aad6-4455-958d-c19915ac4ed0.png)
+  ![3](https://user-images.githubusercontent.com/108754743/223305591-cbba9edc-6a64-46cf-aefd-9a4a8ba6c282.png)
+
+  ![3 5](https://user-images.githubusercontent.com/108754743/223490361-bc2e2898-ea49-42bc-b7c1-a3fe8fe48b8a.png)
+
+</details>
+  
+<details>
+<summary> 'youtube.googleapi.com/youtube/v3/serach?' </summary>
+<br> 
+ 
+   ![new 4](https://user-images.githubusercontent.com/108754743/223490815-b633d3b4-9205-4e11-8ad2-513cd30c0a6c.png)
+
+   ![4 5](https://user-images.githubusercontent.com/108754743/223305638-c590a80c-8482-43d5-9513-5c4421a53d8e.png)
+  
+   ![4 8](https://user-images.githubusercontent.com/108754743/223491511-0776ae3b-eeee-42f1-9207-daf29f56a01d.png)
+
+ </details> 
+ 
+<details>
+<summary> 'unsplash.com/photos?' </summary>
+<br> 
+  
+  ![new5](https://user-images.githubusercontent.com/108754743/223491715-4d094e9f-c205-4f9f-8ab9-1fb79a842575.png)
+
+  ![6](https://user-images.githubusercontent.com/108754743/223305665-0dd3b638-9eb4-4ffb-bf6b-4db35006d85e.png)
+  
+  ![7](https://user-images.githubusercontent.com/108754743/223305672-8c94377d-aad6-4455-958d-c19915ac4ed0.png)
+  
+</details> 
+
 
 
 
 ## Tech Stack
 
-WIP
 
 ## Setup and Installation
 
