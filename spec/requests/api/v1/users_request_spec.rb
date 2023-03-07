@@ -11,7 +11,7 @@ RSpec.describe "Users API" do
       expect(response).to be_successful
       expect(response.status).to eq(201)
       result = JSON.parse(response.body, symbolize_names: true)
-# require 'pry'; binding.pry
+
       expect(result).to be_a(Hash)
       expect(result).to have_key(:data)
       expect(result[:data]).to have_key(:id)
@@ -22,10 +22,24 @@ RSpec.describe "Users API" do
       expect(result[:data][:attributes]).to have_key(:user_api_key)
 
       user = User.last
-# require 'pry'; binding.pry
+
       expect(user.name).to eq("Milo")
       expect(user.email).to eq("milolittle@gmail.com")
       expect(user.user_api_key).to be_a(String)
+    end
+
+    it "returns an error if param is left out" do
+      body = { "name": "", "email": "milolittle@gmail.com" }
+      headers = { "Content-Type": "application/json", Accept: "application/json" }
+      post "/api/v1/users", headers: headers, params: JSON.generate(user: body)
+
+      expect(response).to_not be_successful
+      expect(response.status).to eq(400)
+   
+      parsed_response = JSON.parse(response.body, symbolize_names: true)
+      
+      expect(parsed_response).to be_a(Hash)
+      # expect(parsed_response[:errors]).to eq("Error! New User was not created!")
     end
   end
 end
