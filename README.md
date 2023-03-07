@@ -31,7 +31,7 @@ This is the backend service for an application called Lunch n Learn. Lunch and L
 ## API Endpoints
 Here is a list of all mapped client requests with their respective json responses below them:
 <details>
-<summary> 'edamam.com/api/v1/recipes?country=Ireland' </summary>
+<summary> 'Get Recipes for a Specific Country' </summary>
 <br>
   
   ![first](https://user-images.githubusercontent.com/108754743/223305573-5abd6ae4-572e-4cd6-b5da-52a8c9d7c9a9.png)
@@ -41,7 +41,7 @@ Here is a list of all mapped client requests with their respective json response
  </details>
  
 <details>
-<summary> 'restcountries.com/v3.1/all' </summary>
+<summary> 'Get Recipes by Country' </summary>
 <br>
 
   ![3](https://user-images.githubusercontent.com/108754743/223305591-cbba9edc-6a64-46cf-aefd-9a4a8ba6c282.png)
@@ -51,7 +51,7 @@ Here is a list of all mapped client requests with their respective json response
 </details>
   
 <details>
-<summary> 'youtube.googleapi.com/youtube/v3/serach?' </summary>
+<summary> 'Get a video for a specific Country' </summary>
 <br> 
  
    ![new 4](https://user-images.githubusercontent.com/108754743/223490815-b633d3b4-9205-4e11-8ad2-513cd30c0a6c.png)
@@ -63,7 +63,7 @@ Here is a list of all mapped client requests with their respective json response
  </details> 
  
 <details>
-<summary> 'unsplash.com/photos?' </summary>
+<summary> 'Get a photo for a specific Country' </summary>
 <br> 
   
   ![new5](https://user-images.githubusercontent.com/108754743/223491715-4d094e9f-c205-4f9f-8ab9-1fb79a842575.png)
@@ -78,6 +78,8 @@ Here is a list of all mapped client requests with their respective json response
 
 
 ## Tech Stack
+
+![Lunch n Learn copy](https://user-images.githubusercontent.com/108754743/223498054-1a605abb-849e-4809-92b8-f6001c3d41c4.jpg)
 
 
 ## Setup and Installation
