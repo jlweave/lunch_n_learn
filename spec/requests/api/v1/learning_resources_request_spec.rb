@@ -10,15 +10,12 @@ RSpec.describe "Learning Resources API" do
 
     stub_request(:get, "https://youtube.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=#{api_key}&maxResults=1&part=snippet&q=#{query}")
       .to_return(status: 200, body: json_response, headers: {})
-    # stub_request(:get, "https://youtube.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=#{api_key}&part=snippet&q=#{query}&type=video")
-    #      .to_return(status: 200, body: json_response, headers: {})
 
     json_response2 = File.read('spec/fixtures/images_results.json')
 
     query2 = "Ireland"
 
     image_key = ENV['image_api_key']
-    # https://api.unsplash.com/photos?query=Ireland
 
     stub_request(:get, "https://api.unsplash.com/photos?client_id=#{image_key}&page=1&per_page=10&order_by=relevant&query=#{query2}")
       .to_return(status: 200, body: json_response2, headers: {})
@@ -43,24 +40,5 @@ RSpec.describe "Learning Resources API" do
     expect(result[:attributes][:country]).to eq("Ireland")
     expect(result[:attributes]).to have_key(:video)
     expect(result[:attributes]).to have_key(:image)
-  end
-
-  xit "returns a 404 error and no query provided" do
-     json_response = File.read('spec/fixtures/learning_resources_results.json')
-
-    api_key = ENV['google_api_key']
-
-    stub_request(:get, "https://youtube.googleapis.com/youtube/v3/search?channelId=UCluQ5yInbeAkkeCndNnUhpw&key=#{api_key}&maxResults=1&part=snippet&q=whosville")
-      .to_return(status: 200, body: json_response, headers: {})
-    # country = nil
-    get "/api/v1/learning_resources?country=Whosville"
-
-    expect(response).to_not be_successful
-    expect(response.status).to eq(400)
-
-    response_body = JSON.parse(response.body, symbolize_names: true)
-    
-    expect(response_body).to have_key(:errors)
-    expect(response_body[:errors]).to eq("No Country Entered")
   end
 end
