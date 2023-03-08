@@ -74,30 +74,10 @@ Here is a list of all mapped client requests with their respective json response
   
 </details> 
 
-<details>
-  <summary> 'Get Learning Resources for a Country' </summary>
-  <br>
-  
-    ![Screen Shot 2023-03-07 at 2 33 24 PM](https://user-images.githubusercontent.com/108754743/223557937-d16cd3f8-cf01-4a8a-a50a-861b2013a5b6.png)
-
-  </details>
-  
  <details>
-  <summary> 'User Registration' </summary>
+  <summary> 'User Registration, Add Favorites, Get Users Favorites,' </summary>
   <br>
-
-  </details>
-  
-  <details>
-  <summary> 'User saves Favorites' </summary>
-  <br>
-
-  </details>
-
-<details>
-  <summary> 'Get User Favorites' </summary>
-  <br>
-
+  https://documenter.getpostman.com/view/25513104/2s93JqRQTz
   </details>
 
 
