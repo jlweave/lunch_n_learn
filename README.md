@@ -118,7 +118,7 @@ Does not need an API key
 
 ## Repository Owner
 
-| [<img alt="Lacey" width="75" src="https://media.licdn.com/dms/image/D5635AQGZ0m5EG6d4jA/profile-framedphoto-shrink_200_200/0/1676492118517?e=1678399200&v=beta&t=Vy9bvGzaszF3QaLcnvCM0BLZ3tpaC2Pe4xUkP2EHRBc"/>](https://www.linkedin.com/in/lacey-weaver-be-dev/) |
+| [<img alt="Lacey" width="75" src="https://avatars.githubusercontent.com/u/108754743?s=400&u=b8025841efd9b890069675118a850f8a58d82ed9&v=4"/>](https://www.linkedin.com/in/lacey-weaver-be-dev/) |
  | ------------ |
  | Lacey Weaver | 
 |  [LinkedIn](https://www.linkedin.com/in/lacey-weaver-be-dev/) | 
